@@ -1,0 +1,7 @@
+.vs
+*.user
+*.sln.iml
+*.userosscache
+*.pyproj
+*.pyproj.user
+
