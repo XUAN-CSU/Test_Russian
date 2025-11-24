@@ -340,7 +340,7 @@ class RussianVocabularyApp:
             button = ttk.Button(
                 self.word_frame, 
                 text=russian,
-                width=20,
+                width=30,
                 command=lambda idx=i: self.select_word(idx)
             )
             button.grid(row=row, column=col, padx=5, pady=2, sticky="w")
