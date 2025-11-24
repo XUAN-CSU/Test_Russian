@@ -370,7 +370,7 @@ class RussianVocabularyApp:
             max_columns = max(1, available_width // button_min_width)
             
             # 限制最大列数不超过8，最小不少于2
-            new_columns = min(18, max(2, max_columns))
+            new_columns = min(10, max(2, max_columns))
             
             # 如果列数发生变化，重新布局
             if new_columns != self.current_columns:
